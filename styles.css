@@ -1,10 +1,10 @@
 body {
-    background-color: #f5d9d5;
+    background-color: #f7cfed;
     font-family: "Nunito", sans-serif;
 }
 
 #MainNavbar {
-    size: 2rem;
+    font-size: 1.5em;
     font-weight: 100;
 }
 
@@ -18,5 +18,21 @@ body {
 
 #MainNavbar .navbar-brand {
     color: #ea1c2c;
+    font-size: 1em;
+}
+
+#headingGroup span {
+    color: #ea1c2c;
+}
+
+#headingGroup h2 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h2 {
+        font-weight: 100;
+        font-size: 3rem;
 }
 
