@@ -1,6 +1,23 @@
 body {
-    background-color: #f7cfed;
+    background-color: #f7cfcf;
     font-family: "Nunito", sans-serif;
+}
+
+.blurb h2 {
+    color: #ea1c2c;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.blurb p {
+    color: #ff2e70;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 100px;
 }
 
 #MainNavbar {
@@ -25,14 +42,14 @@ body {
     color: #ea1c2c;
 }
 
-#headingGroup h2 {
+#headingGroup h1 {
     font-weight: 100;
     font-size: 4rem;
 }
 
 @media (max-width: 1200px) {
-    #headingGroup h2 {
+    #headingGroup h1 {
         font-weight: 100;
         font-size: 3rem;
 }
-
+}
