@@ -17,12 +17,14 @@ body {
 }
 
 .content {
-    margin-top: 100px;
+    margin-top: 75px;
+    margin-bottom: 50px;
 }
 
 #MainNavbar {
     font-size: 1.5em;
     font-weight: 100;
+    margin-left: 13px;
 }
 
 #MainNavbar .nav-link {
@@ -45,6 +47,11 @@ body {
 #headingGroup h1 {
     font-weight: 100;
     font-size: 4rem;
+}
+
+.navbar.scrolled {
+    background-color: #dec0de !important;
+    transition: background 500ms;
 }
 
 @media (max-width: 1200px) {
