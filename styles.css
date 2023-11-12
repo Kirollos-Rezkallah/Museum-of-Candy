@@ -49,6 +49,11 @@ body {
     font-size: 4rem;
 }
 
+footer a {
+    color: #46969b;
+    text-decoration: none;
+}
+
 .navbar.scrolled {
     background-color: #dec0de !important;
     transition: background 500ms;
